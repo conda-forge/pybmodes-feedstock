@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.18.0"
+  version: "1.19.0"
   python_min: "3.11"
 
 package:
@@ -9,8 +9,8 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/p/pybmodes/pybmodes-${{ version }}.tar.gz
-  sha256: 1bed25f015f567b62f5b54e7d1fad527a59f800545ccba9848b0444dca776950
+  url: https://files.pythonhosted.org/packages/5d/fa/ecebc8bf2a58c7bc08613c3a2bc6cf4dd6fe87ad0a41e40cb6885b727221/pybmodes-${{ version }}.tar.gz
+  sha256: 7a11a26ee953176df2ba7e288395ab0bb9e98bf4e603ec58b87dac37c85d2d35
 
 build:
   noarch: python
